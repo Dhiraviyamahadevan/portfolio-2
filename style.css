@@ -1,0 +1,542 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin-top: -60px;
+    
+}
+.starting{
+    padding: 0;
+    margin: 0;
+    border: 0%;
+    background-color: #3FA2F6;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    
+}
+.photo{
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+.hi{
+    font-size: 4rem;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 200;
+    font-style: normal;
+    color:  #daeeff;
+    text-align: center;
+    padding-top: 1rem;  
+}
+.im{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color:  #daeeff;
+    margin-top: -2.5rem;
+    font-size: 3rem;
+}
+.pillar , .dsp , .game{
+    display:grid;
+    background-color: #daeeff;
+    border-radius: 10px;
+    padding-right: 10px;
+    border: 2px normal #000;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pillar{
+    margin-left: 8px;
+    
+}
+.pillar:hover{
+    background-color:#daeeff;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.dsp:hover{
+    background-color:#daeeff;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.game:hover{
+    background-color:#daeeff;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.portfolio:hover{
+    background-color:#daeeff;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.portfolio{
+    background-color: #daeeff;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin-right: 6px;
+    border: 2px normal #000;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.p-pp{
+    margin-top: 50px;
+}
+.transparent-button{
+    justify-items: end;
+    width: 140px;
+}
+.exclamatory{
+    color: #FAFFAF;
+}
+.im-color{
+    font-family: "Abril Fatface", serif; 
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+}
+.m{
+    color: #FAFFAF;
+}
+.d{
+    color: #FAFFAF;
+}
+.student{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #FAFFAF;
+    font-size: 2.5rem;
+    margin-top: -2rem;
+}
+.text{
+    position: relative;
+}
+.cloud{
+    width: 12%;
+    padding-top: 2rem;
+    position: absolute;
+    margin-left: 7%;
+
+}
+.cloud2{
+    width: 12%;
+    padding-top: 2rem;
+    position: absolute;
+    margin-left: 80%;
+}
+@media (max-width : 550px){
+    .im{
+        font-size: 2.5rem;
+    }
+    .student{
+        font-size: 2rem;
+    }
+    .im-color{
+        font-size: 1.5rem;
+    }
+    .photo{
+        width:40%;
+        margin-left: 30%;
+    }
+}
+@media (max-width : 440px){
+    .im{
+        font-size: 2rem;
+    }
+    .student{
+        font-size: 1.7rem;
+    }
+
+}
+@media(max-width :350px){
+    .im{
+        font-size:1.5rem ;
+    }
+    .hi{
+        font-size: 3.5rem;
+    }
+    .student{
+        font-size: 1.5rem;
+        padding-top: 10px;
+    }
+}
+.about{
+    display: flex;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    margin-top: 0;
+}
+.about-me{
+    text-align: center;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 200;
+    font-style: normal;
+    color: #3FA2F6;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.space-problem{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr auto;
+    gap: 25px;
+}
+.project-h2{
+    margin-left: 10px;
+    font-size: 1.7rem;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 200;
+    color: #3FA2F6;
+}
+
+.p-h{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 100; 
+    background-color: #3FA2F6;
+    border-radius: 10px;
+    color: #FAFFAF;
+    
+}
+.p-projects{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    margin-left: 10px;
+ 
+}
+hr{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.transparent-button {
+    display: flex;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 5%;
+    justify-content: center;
+
+  
+}
+
+.transparent-button:hover {
+    background-color: #3FA2F6;
+    color:#daeeff;
+    
+}
+.m-h{
+    height: 100%;
+}
+.verify-img{
+    font-size: 1.1rem;
+    color: #FAFFAF;
+}
+
+
+@media(max-width : 800px){
+    .space-problem{
+        display :block;
+        width: 76%;  
+        margin-left: 12%;
+
+    }
+    .p-h{
+        text-align: center;
+        width: 40%;
+        border-radius: 1%;
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-left: 25%;
+    }
+    .p-projects{
+        margin-left: 0px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .dsp ,.game ,.portfolio{
+        margin-top: 40px;
+    }
+@media (max-width : 440px){
+    .p-h{
+        font-size: 1rem;
+    }
+
+}
+
+  
+}
+.last-button{
+    margin-bottom: 20px;
+}
+.tech-exposure{
+    padding-top: 0px;
+}
+button{
+    margin-top: 0px;
+}
+.tech-svg{
+    background-color:#3FA2F6;
+    border-radius: 5px;
+}
+.gear{
+    color: white;
+    background-color: #3FA2F6;
+    border-radius: 5px;
+    padding: 6px 6px;
+}
+.t-p{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.sub{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 25px;
+}
+.book{
+    color: yellow;
+    background-color: #3FA2F6;
+    border-radius: 5px;
+}
+.qualifications{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;  
+    margin-top: 40px;
+    padding-top: 10p; 
+}
+
+.lang-svg{
+    background-color: #3FA2F6;
+    border-radius: 5px;
+}
+.technical-exposure{
+    background-color:#daeeff;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border: 2px normal #000;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 20px;
+}
+.technical-exposure:hover{
+    background-color: #3FA2F6;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.t-e{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.7rem;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 200;
+    color: #FAFFAF;
+    background-color: #3FA2F6;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+.education-o{
+    background-color:#daeeff;
+    border-radius:10px ;
+    border: 2px normal #000;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 40px;
+}
+.languages{
+    background-color: #3FA2F6;
+    border-radius: 10px;   
+}
+
+.education-o:hover{
+    background-color: #3FA2F6;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.lang-2{
+    background-color:#daeeff;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 18px;
+    margin-top: 20px;
+    border: 2px normal #000;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.lang-2:hover{
+    background-color: #3FA2F6;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.intern{
+    background-color:#daeeff;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border: 2px normal #000;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.intern:hover{
+    background-color: #3FA2F6;
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.b-p{
+    padding-bottom: 15px;
+}
+
+@media (max-width : 500px){
+    .qualifications{
+        display: block;
+        margin-right: 20px;
+    }
+    .portfolio{
+        margin-right: 0px;
+    }
+    .education-o{
+        margin-left: 40px;
+        margin-right: 19px;
+        margin-top: 50px;
+    }
+    .intern{
+        margin-left: 40px;
+        margin-right: 19px;
+        margin-top: 50px;
+    }
+    .lang-2{
+        margin-top: 50px;
+
+    }
+
+}
+.call{
+    background-color: #3FA2F6;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.feel{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.hey{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+.contact{
+    margin-top: 50px;
+}
+.portfolio{
+    padding-bottom: 5px;
+}
+.contact-margin{
+    margin-top: 45px;
+}
+.contact-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #daeeff;
+
+
+}
+.color-bg{
+    background-color: #3FA2F6;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    height: 100%;
+}
+.insta{
+    text-decoration: none;
+    color: #daeeff;
+}
+.insta:hover{
+    color: white;
+}
+.phn-number{
+    text-decoration: none;
+    color: #daeeff;
+}
+.phn-number:hover{
+    color: white;
+}
+.email{
+    text-decoration: none;
+    color: #daeeff;
+}
+.email:hover{
+    color: white;
+}
+.linkedin{
+    text-decoration: none;
+    color: #daeeff;
+}
+.linkedin:hover{
+    color: white;
+}
+.technical{
+    margin-top: 70px;
+}
+hr{
+    margin-top: 60px;
+}
+.q-b{
+    background-color: #3FA2F6;
+    color: white;
+    padding: 7px 7px;
+    border-radius: 5px;
+}
+.verify-img{
+    color:#daeeff;
+    background-color: #3FA2F6;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.verify-img:hover{
+    color: white;
+}
+.chk-svg{
+    padding-right: 5px;
+}
+.skills{
+    margin-top: 50px;
+}
